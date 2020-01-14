@@ -1,5 +1,6 @@
 import unittest
-from algorithm.sorting.insertion_sort import InsertionSort
+
+from src.algorithm.sorting.bubble_sort import BubbleSort
 
 
 class TestLinearSearch(unittest.TestCase):
@@ -8,6 +9,6 @@ class TestLinearSearch(unittest.TestCase):
         data = [5, 3, 4, 1, 2]
         expected = [1, 2, 3, 4, 5]
 
-        InsertionSort.sort(data)
+        BubbleSort.sort(data)
 
         self.assertEqual(expected, data)
