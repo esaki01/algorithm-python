@@ -1,6 +1,6 @@
 import unittest
 
-from src.algorithm.sorting.insertion_sort import InsertionSort
+from src.algorithms.sorting.insertion_sort import InsertionSort
 
 
 class TestLinearSearch(unittest.TestCase):

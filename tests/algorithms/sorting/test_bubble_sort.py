@@ -1,6 +1,6 @@
 import unittest
 
-from src.algorithm.sorting.bubble_sort import BubbleSort
+from src.algorithms.sorting.bubble_sort import BubbleSort
 
 
 class TestLinearSearch(unittest.TestCase):

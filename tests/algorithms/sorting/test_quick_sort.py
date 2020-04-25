@@ -1,6 +1,6 @@
 import unittest
 
-from src.algorithm.sorting.quick_sort import QuickSort
+from src.algorithms.sorting.quick_sort import QuickSort
 
 
 class TestLinearSearch(unittest.TestCase):

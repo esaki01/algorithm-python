@@ -1,6 +1,6 @@
 import unittest
 
-from src.algorithm.searching.hashing import Hashing
+from src.algorithms.searching.hashing import Hashing
 
 
 class TestLinearSearch(unittest.TestCase):
