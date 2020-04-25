@@ -1,6 +1,6 @@
 import unittest
 
-from src.data_structure.stack import Stack
+from src.data_structures.stack import Stack
 
 
 class TestStack(unittest.TestCase):
