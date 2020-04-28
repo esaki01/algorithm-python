@@ -3,7 +3,7 @@ import unittest
 from src.algorithms.sorting.bubble_sort import BubbleSort
 
 
-class TestLinearSearch(unittest.TestCase):
+class TestBubbleSort(unittest.TestCase):
 
     def test_sort(self):
         data = [5, 3, 4, 1, 2]

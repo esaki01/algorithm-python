@@ -3,7 +3,7 @@ import unittest
 from src.algorithms.sorting.insertion_sort import InsertionSort
 
 
-class TestLinearSearch(unittest.TestCase):
+class TestInsertionSort(unittest.TestCase):
 
     def test_sort(self):
         data = [5, 3, 4, 1, 2]

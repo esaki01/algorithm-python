@@ -3,7 +3,7 @@ import unittest
 from src.algorithms.sorting.quick_sort import QuickSort
 
 
-class TestLinearSearch(unittest.TestCase):
+class TestQuickSort(unittest.TestCase):
 
     def test_sort(self):
         data = [5, 4, 7, 6, 8, 3, 1, 2, 9]
